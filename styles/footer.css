@@ -1,0 +1,70 @@
+.footer{
+  background-color: #333333;
+  margin-top: 3rem;
+  padding: 4rem 0;
+
+}
+.footer_brand-text{
+  margin-top: 1.5rem;
+}
+.brand_social-media{
+  margin-top: 1.5rem;
+
+}
+
+.brand_social-media-item{
+  display: inline ;
+  margin-right: 1.5rem;
+}
+
+.footer_contact-container{
+  margin-top: 3rem;
+}
+
+
+.footer_contact-title{
+  color: white;
+  font-weight: 700;
+
+}
+
+.footer_addres{
+  margin-top: 1.5rem;
+}
+
+.footer_map{
+  margin-top: 3rem;
+  width: 100%;
+  height: 30rem;
+
+}
+
+@media(min-width:768px){
+  .footer{
+    margin-top: 8rem;
+  }
+}
+
+@media(min-width:900px){
+  .footer{
+    margin-top: 10rem;
+  }
+
+  .footer_container{
+    display: grid;
+    grid-auto-flow: column;
+    grid-auto-columns: 1fr;
+  }
+
+  .footer_brand-container{
+    margin-right: 3rem;
+  }
+
+  .footer_contact-container{
+    margin-top: 0;
+  }
+
+  .footer_map{
+    margin-top: 0;
+  }
+}

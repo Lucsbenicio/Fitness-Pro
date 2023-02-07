@@ -1,0 +1,57 @@
+.photos{
+  margin-top: 4rem;
+}
+
+.photos_photos-container{
+  margin-top: 3rem;
+}
+
+.photos_image{
+  max-width: 100%;
+  margin-bottom: 
+  1.5rem;
+}
+
+.myButton{
+  border: none;
+  background:#00132c;
+  padding: 1.5rem 4rem;
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+  font-weight: 500;
+  margin-top: 1.5rem;
+  font-family: "poppins", sans-serif;
+  border-radius: 30px;
+  cursor: pointer;
+
+  
+
+}
+
+@media(min-width:500px){
+  .photos_photos-container{
+    column-count: 2;
+    column-gap: 1.5rem;
+
+  }
+}
+
+
+@media(min-width:768px){
+  .photos{
+    margin-top: 8rem;
+  }
+
+}
+
+@media(min-width:900px){
+  .photos{
+    margin-top: 10rem;
+  }
+
+  .photos_photos-container{
+    column-count: 3;
+
+  }
+ 
+}

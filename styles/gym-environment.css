@@ -1,0 +1,41 @@
+.gym-enviroment{
+  display: flex;
+  flex-direction: column-reverse;
+  margin-top: 4rem;
+  
+}
+
+.gym-enviroment_title{
+  margin-top: 1.5rem;
+}
+
+.gym-enviroment_content{
+  margin-top: 1.5rem;
+}
+
+.gym-enviroment_image{
+  max-width: 100%;
+  align-self: center;
+}
+
+@media(min-width:768px){
+  .gym-enviroment{
+    margin-top: 8rem;
+  }
+}
+
+@media(min-width:900px){
+  .gym-enviroment{
+    margin-top: 10rem;
+    flex-direction: row;
+  }
+
+  .gym-enviroment_description-container{
+    padding-right: 3rem;
+
+  }
+
+  .gym-enviroment_image{
+    max-width: 50%;
+  }
+}
